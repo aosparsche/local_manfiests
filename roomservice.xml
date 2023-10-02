@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You should probably let Roomservice deal with this unless you know what you are doing. -->
+<manifest>
+  <project path="device/realme/porsche" name="AOSPA/android_device_realme_porsche" remote="aospa" revision="topaz" />
+  <project path="kernel/msm-5.4" name="AOSPA/android_kernel_realme_sm8350" remote="aospa" revision="topaz" />
+  <project path="hardware/oplus" name="AOSPA/android_hardware_oplus" remote="aospa" revision="topaz" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="topaz-888" />
+  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="topaz-888" />
+  <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="topaz-legacy-component" />
+  <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="topaz-888" />
+  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="topaz-SN100X-legacy" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="topaz-SN100X-legacy" />
+  <project path="vendor/oplus/camera" name="proprietary_vendor_oplus_camera" remote="blobs-gitlab" revision="topaz-porsche" clone-depth="1" />
+  <project path="prebuilts/clang-standalone" name="android_prebuilts_clang-standalone" remote="blobs-gitlab" revision="17" clone-depth="1" />
+  <project path="vendor/realme/firmware" name="proprietary_vendor_realme_firmware" remote="blobs-gitlab" revision="topaz" />
+  <project path="vendor/realme" name="proprietary_vendor_realme" remote="blobs" revision="topaz" />
+</manifest>
